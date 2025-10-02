@@ -1,0 +1,29 @@
+# Logs
+*.log
+
+# Environment variables (if ever added)
+.env
+.env.local
+
+# Build artifacts (not used now, but future-proof)
+/dist
+/build
+/out
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*~
+*.bak
+
+# GitHub Pages cache (if deployed via actions)
+.github/workflows/deploy.yml
